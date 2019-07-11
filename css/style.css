@@ -72,3 +72,7 @@ border-left: 2px solid black;
 #one >h2{
     margin-top: 50px;
 }
+.copyright{
+    text-align:center;
+    color:black;
+}
