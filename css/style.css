@@ -13,7 +13,6 @@ header
 }
 .main ul {
     list-style-type:none;
-    margin-top:30px;
     margin-top:40px;
     padding:0;
     background-color:black;
@@ -74,8 +73,52 @@ border-left: 2px solid black;
 }
 .copyright{
     text-align:center;
-    color:black;
+    color:white;
+    font-size:20px;
 }
 #two ul{
     font-size:20px;
 }
+.footer{
+    background-color: black;
+   
+}
+.footer ul li{
+    display: inline-block;
+    padding:30px;
+    margin-left: 7%;
+    margin-right: 7%;
+   
+}
+
+.twitter{
+    display:flex;
+    flex-direction:row;
+    font-size:20px;
+    color:white;
+   
+    
+  }
+  .facebook{
+    display:flex;
+    flex-direction:row;
+    font-size:20px;
+    color:white;
+  
+    
+  }
+  .instagram{
+    display:flex;
+    flex-direction:row;
+    font-size:20px;
+    color:white;
+    
+    
+  }
+  .google{
+    display:flex;
+    flex-direction:row;
+    font-size:20px;
+    
+    color:white;
+  }
