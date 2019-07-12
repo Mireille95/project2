@@ -18,12 +18,14 @@
   h1{
       margin-top:23%;
       color:whitesmoke;
+      font-family: monospace;
   }
   .button{
-    position:absolute;
-   top:100%;
+position:absolute;
+   top:130%;
    left:50%;
    transform:translate(-50%,-50%);
+   margin-right: 5%;
  }
  .active{
    border:1px solid #fff;
@@ -84,10 +86,10 @@ float: right;
 
 }
 h2{
-    margin-top: 3%; 
+    margin-top: 1%; 
    
     font-size: 40px;
-    font-family: sans-serif;
+    font-family: monospace;
     margin-left: 35%;
 }
 .col > p{
@@ -103,10 +105,12 @@ h2{
 }
 
 h3{
-    margin-top: 3%; 
+    margin-top: 7%; 
     text-align: center;
     font-size: 35px;
     margin-left: 2%;
+    margin-right: 10%;
+    font-family: monospace;
 }
 #more >p{
     text-align:center;
@@ -126,7 +130,7 @@ h3{
     margin-right: 8%;
     font-family: cursive;
 }
-#project >p{
+.colu >p{
     
    
     margin-top: 2%;
@@ -135,21 +139,34 @@ h3{
     margin-right: 8%;
     font-family: cursive;
 }
-#project ul{
-    font-size:20px;
+.colu ul{
+    
    width:400px;
    margin-right: 5%;
    margin-left: 5%;
+   
+}
+
+.colu ul >li >a{
+    margin-right: 10%;
+   margin-left: 10%;
    text-decoration: none;
 }
-.colu ul >li >a{
-    background-color:white;
-    text-decoration: none;
-}
-.colu{
+.colu {
     margin-top: 5%;
     width:420px;
     float:left; 
+    display:flex;
+    flex-direction:column;
+    box-shadow:6px 6px 6px 6px white;
+    
+}
+.colu img{
+margin-left: 10%;
+margin-right: 10%;
+display:flex;
+justify-content:space-between;
+
 }
 .colu  img:hover{
     background-color:white;
@@ -165,6 +182,11 @@ h3{
 .footer{
     background-color: black;
    
+}
+.footer h4{
+margin-top: 3%;
+color:grey;
+text-align: center;
 }
 .footer ul li{
     display: inline-block;
@@ -208,3 +230,4 @@ h3{
   .you{
       color:grey;
   }
+
